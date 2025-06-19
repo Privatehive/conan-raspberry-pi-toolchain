@@ -1,12 +1,12 @@
 {
-  "version": "0.0.9",
-  "projectName": "raspberry-pi-os",
+  "version": "bullseye",
+  "projectName": "raspberry-pi-toolchain",
   "projectDescription": "Raspberry Pi OS Cross-Toolchain.",
   "vendor": "Björn Stresing",
   "contact": "bjoern.stresing@gmx.de",
-  "domain": "com.github.tereius",
+  "domain": "de.privatehive",
   "copyrightYear": "2023",
-  "repository": "https://github.com/Tereius/conan-raspberry-pi-os",
+  "repository": "https://github.com/Privatehive/conan-raspberry-pi-toolchain",
   "topics": ["Raspberry", "Pi", "Cross"],
   "homepage": "https://github.com/tttapa/docker-arm-cross-toolchain",
   "license": "GPL"
