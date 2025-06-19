@@ -6,11 +6,9 @@
 
 ---
 
-| os      | arch    | CI Status                                                                                                                                                                                                                                                                                         |
-| ------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Linux` | `armv6` | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-raspberry-pi-toolchain/main.yml?branch=master&style=flat&logo=github&label=create+package)](https://github.com/Privatehive/conan-raspberry-pi-toolchain/actions?query=branch%3Amaster) |
-
-docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
+| os      | arch     | CI Status                                                                                                                                                                                                                                                                                         |
+| ------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Linux` | `x86_64` | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-raspberry-pi-toolchain/main.yml?branch=master&style=flat&logo=github&label=create+package)](https://github.com/Privatehive/conan-raspberry-pi-toolchain/actions?query=branch%3Amaster) |
 
 To populate `conandata.yml` with the Raspberry Pi OS packages that make up the sysroot run the provided Docker container:
 
