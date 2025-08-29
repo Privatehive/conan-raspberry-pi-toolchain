@@ -5,6 +5,8 @@ packages-bullseye:
     sha256: b46a3b2607d31bebfb98f52e6f609f9e87e361359c2b1aefc841f9714c2dce15
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libg/libgudev/gir1.2-gudev-1.0_234-1_armhf.deb
     sha256: c519b974025c973d4f20263b6543fd7a3f94b861b7654a4f3cf639ecf10df815
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libs/libsecret/gir1.2-secret-1_0.20.4-2_armhf.deb
+    sha256: 040403e4305cec5ee0d43a257e15ae4527ab3c51a8938396be0edaf3497d7c82
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/guile-3.0/guile-3.0-libs_3.0.5-4_armhf.deb
     sha256: ea3e44cfaf98d6978d7e4ce603bc55a1fdd404d5ac21c8d4e5c26155eb0ff0bf
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/t/texinfo/install-info_6.7.0.dfsg.2-6_armhf.deb
@@ -85,6 +87,8 @@ packages-bullseye:
     sha256: f3006815d57e89622b3759394ad3598bd0b704519373dc22df76a259e1ee9fc5
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libg/libgc/libgc1_8.0.4-3_armhf.deb
     sha256: a576c22bcd07e0424f418a5cd7f12c9d734554579ac101de266ef23340e03145
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libg/libgcrypt20/libgcrypt20_1.8.7-6_armhf.deb
+    sha256: 7ff4136baf259c59e1d81f55c35f1282784a9c13ea7f09589786079c3fb6d08d
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/gdbm/libgdbm-compat4_1.19-2_armhf.deb
     sha256: c9267d206ae4e7e3435e8790cc045cb9c3d9581562838c1f3c18db8592b1ad5b
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/gdbm/libgdbm6_1.19-2_armhf.deb
@@ -125,6 +129,8 @@ packages-bullseye:
     sha256: dbee764eab7275f3a76148abe9aec5aef4c50e5f35be00f473960a7e1b5c8a23
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/gmp/libgmp10_6.2.1%2bdfsg-1%2bdeb11u1_armhf.deb
     sha256: 087e6cc07aace563a5894beae84e76a4acef0f96f7ae6238f75f629f46e7a45b
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libg/libgpg-error/libgpg-error0_1.38-2_armhf.deb
+    sha256: 44e1c8534c1ae58340194a926dd16c32d973aee38ebd8f19d673ce01595b9611
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/k/krb5/libgssapi-krb5-2_1.18.3-6%2bdeb11u7_armhf.deb
     sha256: 41a3543f18bb1c016a04dddcdd2cde5f2335d74d638508654ebf5f1c6e0edac4
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libg/libgudev/libgudev-1.0-0_234-1_armhf.deb
@@ -195,6 +201,12 @@ packages-bullseye:
     sha256: 296cbc4e83aa79186551dcd8dabafed34fc92eb376b425b93fc01b3aa02b9791
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/r/readline/libreadline8_8.1-1_armhf.deb
     sha256: b96eccd3d0af33068167df0068686e9a7cf0ea887f17afc2b13ff66c4d7c003c
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libs/libsecret/libsecret-1-0_0.20.4-2_armhf.deb
+    sha256: 15ef585abac278fba4ccab2379ed0116fbdcc11af57820a2b1353f9fc735ad1a
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libs/libsecret/libsecret-1-dev_0.20.4-2_armhf.deb
+    sha256: bde413fdb0929b3f1ee6f8508d747094c2559c2135b5e0096857aa9c407a7cdf
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libs/libsecret/libsecret-common_0.20.4-2_all.deb
+    sha256: 2e4b281c2c38e5be1c253955c13e4366ae64c449358aa0bc00a46bfb846bf30f
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libs/libselinux/libselinux1_3.1-3_armhf.deb
     sha256: 96ed58aa6c7c4bf478e43acdf2fe96c6e870868723f4ce50184d584f91e2d86c
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libs/libselinux/libselinux1-dev_3.1-3_armhf.deb

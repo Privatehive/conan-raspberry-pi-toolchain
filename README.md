@@ -12,6 +12,14 @@
 
 To populate `conandata.yml` with the Raspberry Pi OS packages that make up the sysroot run the provided Docker container:
 
+Install qemu and binfmt-support and register the executable types on the host with a this command:
+
+```
+$ docker run --privileged --rm tonistiigi/binfmt --install all
+```
+
+Then run the following image
+
 ```
 $ docker build ./docker -f docker/Dockerfile --build-arg VERSION=bullseye -t raspberrypi-chroot && docker run --rm -it --privileged -v $(pwd):/out raspberrypi-chroot
 ```

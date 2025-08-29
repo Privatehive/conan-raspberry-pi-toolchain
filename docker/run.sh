@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define your main package list
-packages=(libgbm-dev libdrm-dev libegl-dev libgles-dev libinput-dev libinput10 libudev-dev libxkbcommon-dev)
+packages=(libgbm-dev libdrm-dev libegl-dev libgles-dev libinput-dev libinput10 libudev-dev libxkbcommon-dev libsecret-1-dev)
 
 # Define your blacklist (wildcards allowed, e.g., libc* will match libc6, libc-dev, etc.)
 blacklist=(gcc-*-base libc-dev-bin libc6* libatomic? libllvm* libgcc-* libstdc++* python3* zlib1g* libz3* linux-libc* binutils* debconf* dpkg* libpkgconf* libpython3* perl* pkg-config)
