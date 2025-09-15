@@ -235,10 +235,10 @@ packages-bullseye:
     sha256: ae86567c8ebbacadc02ea66cf4838689b472628e8e3d3d14c14f9eb4a040859c
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libt/libtirpc/libtirpc3_1.3.1-1%2bdeb11u1_armhf.deb
     sha256: d086cf3702373cebcd9c34a80691c2ceef842943b57bb80c9c05fde17d29f043
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/s/systemd/libudev-dev_247.3-7%2brpi1%2bdeb11u6_armhf.deb
-    sha256: f660ef493ab0e188715c32a3bdd6c356c39da5892812573768e7bde64f9c4780
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/s/systemd/libudev1_247.3-7%2brpi1%2bdeb11u6_armhf.deb
-    sha256: e1fd905cddafd0687d1d7282251c2d97b58c1c372a955c69674759433073fdf9
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/s/systemd/libudev-dev_247.3-7%2brpi1%2bdeb11u7_armhf.deb
+    sha256: 74bfd707b51d276398bdecf7b1f0b53019f335d3a8762f58eb1d63a17f2713ba
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/s/systemd/libudev1_247.3-7%2brpi1%2bdeb11u7_armhf.deb
+    sha256: 1711b1f603ee5acb4a131d09733cd60e836d4f65b326b6b0c19975c901447b05
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libu/libunistring/libunistring2_0.9.10-4_armhf.deb
     sha256: 6454a16826f87031b3ee542d58ff4f7c83f0d2b4ce98729f7731f8627c0f1222
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/u/util-linux/libuuid1_2.36.1-8%2bdeb11u2_armhf.deb
