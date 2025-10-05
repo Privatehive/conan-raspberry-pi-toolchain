@@ -223,8 +223,8 @@ packages-bullseye:
     sha256: 7d9ede0d3252f27efcd4d7047923c1279523d1735bab6b06e52a4ad37ef445a7
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/s/sqlite3/libsqlite3-0_3.34.1-3%2bdeb11u1_armhf.deb
     sha256: 3b29604813e1069a0d259ace85ec33f8e66ecc19804d333d50ecc4f57c62e382
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/o/openssl/libssl1.1_1.1.1w-0%2bdeb11u2_armhf.deb
-    sha256: 12d8980248cd20e51e69ad7b1eb9bbc981623a5bc5be60ab6e632f57baf1b0ad
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/o/openssl/libssl1.1_1.1.1w-0%2bdeb11u4_armhf.deb
+    sha256: e7f6b19dbbfdcc136e0d011bcd5e8946881df846a5eaa0bd283fcdb8ab15bcc2
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libt/libtextwrap/libtextwrap1_0.1-14.2_armhf.deb
     sha256: 992ddc463cb39411c07091619d522ad21be21f27ee3dc45ee917d3f277db1e81
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/n/ncurses/libtinfo6_6.2%2b20201114-2%2bdeb11u2_armhf.deb
