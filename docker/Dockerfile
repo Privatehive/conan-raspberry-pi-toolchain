@@ -1,5 +1,6 @@
 ARG VERSION=bullseye
-FROM debian:${VERSION} AS build
+# The host image only runs debootstrap, it does not need to match the chroot version
+FROM debian:bookworm AS build
 ARG VERSION
 ARG CHROOT_ARCH=armhf
 ARG MIRROR=http://raspbian.raspberrypi.org/raspbian

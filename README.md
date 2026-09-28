@@ -10,7 +10,11 @@
 | ------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Linux` | `x86_64` | [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Privatehive/conan-raspberry-pi-toolchain/main.yml?branch=master&style=flat&logo=github&label=create+package)](https://github.com/Privatehive/conan-raspberry-pi-toolchain/actions?query=branch%3Amaster) |
 
-To populate `conandata.yml` with the Raspberry Pi OS packages that make up the sysroot run the provided Docker container:
+The package contains either the 32 bit (`armv6-rpi-linux-gnueabihf`) or the 64 bit (`aarch64-rpi3-linux-gnu`) cross compiler, together with a matching sysroot. When used as a `tool_requires` the target architecture is taken from the `arch` setting of the host profile (`armv8` selects the 64 bit toolchain, everything else the 32 bit one). It can also be set explicitly with the option `raspberry-pi-toolchain/*:target_arch=armv6|armv8`. Without a host profile (e.g. a plain `conan create`) the 32 bit toolchain is built.
+
+### Updating the sysroot packages
+
+To populate `conandata.yml` with the Raspberry Pi OS packages that make up the sysroot run the provided Docker container. Each run replaces only the package list (`packages-<version>-<debian arch>`) of the architecture it was built for.
 
 Install qemu and binfmt-support and register the executable types on the host with a this command:
 
@@ -18,8 +22,14 @@ Install qemu and binfmt-support and register the executable types on the host wi
 $ docker run --privileged --rm tonistiigi/binfmt --install all
 ```
 
-Then run the following image
+Then run the following image for the 32 bit (`armhf`) sysroot
 
 ```
 $ docker build ./docker -f docker/Dockerfile --build-arg VERSION=bullseye -t raspberrypi-chroot && docker run --rm -it --privileged -v $(pwd):/out raspberrypi-chroot
+```
+
+and for the 64 bit (`arm64`) sysroot. Raspberry Pi OS 64 bit is based on the regular Debian arm64 repository.
+
+```
+$ docker build ./docker -f docker/Dockerfile --build-arg VERSION=bullseye --build-arg CHROOT_ARCH=arm64 --build-arg MIRROR=http://deb.debian.org/debian -t raspberrypi-chroot-arm64 && docker run --rm -it --privileged -v $(pwd):/out raspberrypi-chroot-arm64
 ```

@@ -34,7 +34,14 @@ done
 # Output the final list
 printf "%s\n" "${final_packages[@]}"
 
-printf "packages-${VERSION}:\n" > /out/conandata.yml
+arch=$(dpkg --print-architecture)
+key="packages-${VERSION}-${arch}"
+
+# Keep the entries of the other versions/architectures, replace only this one
+touch /out/conandata.yml
+awk -v key="${key}:" '/^[^ ]/ { skip = ($0 == key) } !skip' /out/conandata.yml > /tmp/conandata.yml
+
+printf "${key}:\n" >> /tmp/conandata.yml
 
 apt-get -qq --print-uris download "${final_packages[@]}" | \
 awk '
@@ -45,4 +52,6 @@ awk '
         printf("  - name: %s\n", $1);
         printf("    sha256: %s\n", sha256);
     }
-}' >> /out/conandata.yml
+}' >> /tmp/conandata.yml
+
+cat /tmp/conandata.yml > /out/conandata.yml

@@ -1,4 +1,337 @@
-packages-bullseye:
+packages-bullseye-arm64:
+  - name: http://deb.debian.org/debian/pool/main/a/acl/libacl1_2.2.53-10_arm64.deb
+    sha256: f164c48192cb47746101de6c59afa3f97777c8fc821e5a30bb890df1f4cb4cfd
+  - name: http://deb.debian.org/debian/pool/main/b/binutils/libbinutils_2.35.2-2_arm64.deb
+    sha256: 7305a9bb576a975ec0fdc69688dec98a3c102c2026d5ad18bb014e93f1b076aa
+  - name: http://deb.debian.org/debian/pool/main/b/binutils/libctf-nobfd0_2.35.2-2_arm64.deb
+    sha256: c5e96863d481de39e224fa9269e2e5716faf9e583f8fa93723dabd55b028b319
+  - name: http://deb.debian.org/debian/pool/main/b/binutils/libctf0_2.35.2-2_arm64.deb
+    sha256: 9f0b5320bde7069030d9dcded5cdc395c77fd2b8478cf8ccfcaf2d1bbe145105
+  - name: http://deb.debian.org/debian/pool/main/b/bzip2/bzip2_1.0.8-4_arm64.deb
+    sha256: 672b708d9be7dd8727550e4829d5020d476c18a8328eaa256217e7c20af5e5f0
+  - name: http://deb.debian.org/debian/pool/main/b/bzip2/libbz2-1.0_1.0.8-4_arm64.deb
+    sha256: da340e8470e96445c56966f74e48a9a91dee0fa5c89876e88a4575cc17d17a97
+  - name: http://deb.debian.org/debian/pool/main/d/db5.3/libdb5.3_5.3.28%2bdfsg1-0.8_arm64.deb
+    sha256: cf9aa3eae9cfc4c84f93e32f3d11e2707146e4d9707712909e3c61530b50353e
+  - name: http://deb.debian.org/debian/pool/main/d/dpkg/libdpkg-perl_1.20.13_all.deb
+    sha256: 1b11dda85ade6466e375e393370e6777fbc1bef45b4d2b8bcc49a05bf4cbd563
+  - name: http://deb.debian.org/debian/pool/main/e/e2fsprogs/libcom-err2_1.46.2-2_arm64.deb
+    sha256: fc95d415c35f5b687871f660a5bf66963fd117daa490110499119411e2d6145e
+  - name: http://deb.debian.org/debian/pool/main/e/elfutils/libelf1_0.183-1_arm64.deb
+    sha256: 12e14110cd66b3bf0564e3b184985b3e91c9cd76e909531a7f7bd2cb9b35a1f3
+  - name: http://deb.debian.org/debian/pool/main/e/expat/libexpat1_2.2.10-2%2bdeb11u5_arm64.deb
+    sha256: 8d20bfd061845bda0321d01accd6f8386ead5b1d7250a585d12b8d5fb1408ffa
+  - name: http://deb.debian.org/debian/pool/main/g/gdbm/libgdbm-compat4_1.19-2_arm64.deb
+    sha256: 0853cc0b0f92784b7fbd193d737c63b1d95f932e2b95dc1bb10c273e01a0f754
+  - name: http://deb.debian.org/debian/pool/main/g/gdbm/libgdbm6_1.19-2_arm64.deb
+    sha256: 97a88c2698bd836d04e51ad70c76826850857869b51e90b5343621ba30bbf525
+  - name: http://deb.debian.org/debian/pool/main/g/glib2.0/libglib2.0-0_2.66.8-1%2bdeb11u4_arm64.deb
+    sha256: 6acd43e7296d0f1baceb582bf323fffa6ce4d428f6ee88d9ebc0a45d9001a399
+  - name: http://deb.debian.org/debian/pool/main/g/glib2.0/libglib2.0-bin_2.66.8-1%2bdeb11u4_arm64.deb
+    sha256: afecee848a1b956cdd67db6473feebcca27ba6a04aaca33905e280576f8e913e
+  - name: http://deb.debian.org/debian/pool/main/g/glib2.0/libglib2.0-data_2.66.8-1%2bdeb11u4_all.deb
+    sha256: 6e8e0909c61a6b4ec9e4205344bd2285e281fe23640887ed2ae9f470a3f2c509
+  - name: http://deb.debian.org/debian/pool/main/g/glib2.0/libglib2.0-dev_2.66.8-1%2bdeb11u4_arm64.deb
+    sha256: 13ab053362d2fa2a55cca2aaefea8e223a8a8bbdf4141140d11ba5b1591dab6d
+  - name: http://deb.debian.org/debian/pool/main/g/glib2.0/libglib2.0-dev-bin_2.66.8-1%2bdeb11u4_arm64.deb
+    sha256: 70a1a79e60e7a521c2468492acf9b88d49dae69b8005b505a5b23f0eeaa9a50b
+  - name: http://deb.debian.org/debian/pool/main/g/gmp/libgmp10_6.2.1%2bdfsg-1%2bdeb11u1_arm64.deb
+    sha256: d52619b6ff8829aa5424dfe3189dd05f22118211e69273e9576030584ffcce80
+  - name: http://deb.debian.org/debian/pool/main/g/gobject-introspection/gir1.2-glib-2.0_1.66.1-1%2bb1_arm64.deb
+    sha256: c169be0e2d5429521f2a306f5e8359489007cd5fb2ba13ce7b8df82c8c917075
+  - name: http://deb.debian.org/debian/pool/main/g/gobject-introspection/libgirepository-1.0-1_1.66.1-1%2bb1_arm64.deb
+    sha256: fb3da6c3d8b79aefa9db09fb9b5054793d5c98bab11504f41a149935849e462d
+  - name: http://deb.debian.org/debian/pool/main/g/guile-3.0/guile-3.0-libs_3.0.5-4_arm64.deb
+    sha256: a552e74abdaea3d7d26f61e0054822445d716302af4128c7a1064d82bbf6ef30
+  - name: http://deb.debian.org/debian/pool/main/k/keyutils/libkeyutils1_1.6.1-2_arm64.deb
+    sha256: 7101c2380ab47a3627a6fa076a149ab71078263064f936fccbd43efbaed4a2da
+  - name: http://deb.debian.org/debian/pool/main/k/krb5/libgssapi-krb5-2_1.18.3-6%2bdeb11u5_arm64.deb
+    sha256: 6bc41826de805baa51b05de4970d4c597c0509d1013db20fd46bb42ea65a9002
+  - name: http://deb.debian.org/debian/pool/main/k/krb5/libk5crypto3_1.18.3-6%2bdeb11u5_arm64.deb
+    sha256: 965afcbbf717c55d625343c86548c156a26e54dc1905776421ff6a21515784cc
+  - name: http://deb.debian.org/debian/pool/main/k/krb5/libkrb5-3_1.18.3-6%2bdeb11u5_arm64.deb
+    sha256: 1d70ec972e1d1f19c1b0d82f9941f1208ae8506ec38e4b29b816b64cf4c04351
+  - name: http://deb.debian.org/debian/pool/main/k/krb5/libkrb5support0_1.18.3-6%2bdeb11u5_arm64.deb
+    sha256: b0eac63312a9cda796c92d649b19346ccf2d6558fce75daac528bad7f132071c
+  - name: http://deb.debian.org/debian/pool/main/libb/libbsd/libbsd0_0.11.3-1%2bdeb11u1_arm64.deb
+    sha256: 614d36d41b670955a75526865bd321703f2accb6e0c07ee4c283fbba12e494df
+  - name: http://deb.debian.org/debian/pool/main/libd/libdebian-installer/libdebian-installer4_0.121_arm64.deb
+    sha256: 6f1b038841a64b857a4212d709b9c6a7fca679edf02852be5600c670bfbbd399
+  - name: http://deb.debian.org/debian/pool/main/libd/libdrm/libdrm-amdgpu1_2.4.104-1_arm64.deb
+    sha256: 660f8dced02cb67826e61a91e09101d70c904ff0231d6696d6b45dbd789e86cb
+  - name: http://deb.debian.org/debian/pool/main/libd/libdrm/libdrm-common_2.4.104-1_all.deb
+    sha256: 60c69026fb8e4cfdf8d80a4a86ee30516c611dcc4de4aa1c8ccbf06dff563e2b
+  - name: http://deb.debian.org/debian/pool/main/libd/libdrm/libdrm-dev_2.4.104-1_arm64.deb
+    sha256: dbbbc3d05b470d6d35b5f2daed4be893e41b74f9c7e58bf5be3d18849b14f78a
+  - name: http://deb.debian.org/debian/pool/main/libd/libdrm/libdrm-etnaviv1_2.4.104-1_arm64.deb
+    sha256: 94871c2b1fa6ad6dadff5606a293bb3d86faa2215440da9340645d3e303b82c9
+  - name: http://deb.debian.org/debian/pool/main/libd/libdrm/libdrm-freedreno1_2.4.104-1_arm64.deb
+    sha256: 753c888e556952a47bbbfb85823f80eaefa0b23cd8131c69667cbb7c0af13b87
+  - name: http://deb.debian.org/debian/pool/main/libd/libdrm/libdrm-nouveau2_2.4.104-1_arm64.deb
+    sha256: d54e628289717d6751367767e9b1867ed8b863890a64724cda4e76f3be773cde
+  - name: http://deb.debian.org/debian/pool/main/libd/libdrm/libdrm-radeon1_2.4.104-1_arm64.deb
+    sha256: e8ecdbc425f3ce293d85eb43bd759f657db9eccef24637c4edb36a147fed93cb
+  - name: http://deb.debian.org/debian/pool/main/libd/libdrm/libdrm-tegra0_2.4.104-1_arm64.deb
+    sha256: 58795c9786d0c925f89724885fc19f1d3bd55126abe7878f0f4766b6b58a7476
+  - name: http://deb.debian.org/debian/pool/main/libd/libdrm/libdrm2_2.4.104-1_arm64.deb
+    sha256: 1dc606aa361307a8c5277c2a5ddedea40a4125874e887c98e82b33dacaa853b0
+  - name: http://deb.debian.org/debian/pool/main/libe/libedit/libedit2_3.1-20191231-2%2bb1_arm64.deb
+    sha256: 43cbfd69ef591a66cfd06aedf930e3fc3c370b3a7ad514a33399d0e1a4d7343e
+  - name: http://deb.debian.org/debian/pool/main/libe/libevdev/libevdev-dev_1.11.0%2bdfsg-1_arm64.deb
+    sha256: 58add51ae5e02f8354a1a07d6df497a3ac68b0a7cf4d405c0e08c94d8a5d8b61
+  - name: http://deb.debian.org/debian/pool/main/libe/libevdev/libevdev2_1.11.0%2bdfsg-1_arm64.deb
+    sha256: 3d99c5b85dc78bcff58d84f4b3a31f270c5c185be12f6411a8c768da080bb84c
+  - name: http://deb.debian.org/debian/pool/main/libf/libffi/libffi-dev_3.3-6_arm64.deb
+    sha256: 31166c3c814374c520e4c47cc779291888a2a7eca09fc93b5d2918bd7e2ed085
+  - name: http://deb.debian.org/debian/pool/main/libf/libffi/libffi7_3.3-6_arm64.deb
+    sha256: eb748e33ae4ed46f5a4c14b7a2a09792569f2029ede319d0979c373829ba1532
+  - name: http://deb.debian.org/debian/pool/main/libg/libgc/libgc1_8.0.4-3_arm64.deb
+    sha256: 75e1fb947599282507c0edfd207ab21fe416dfe48ecabc182282f36354f0f9ec
+  - name: http://deb.debian.org/debian/pool/main/libg/libgcrypt20/libgcrypt20_1.8.7-6_arm64.deb
+    sha256: 61ec779149f20923b30adad7bdf4732957e88a5b6a26d94b2210dfe79409959b
+  - name: http://deb.debian.org/debian/pool/main/libg/libglvnd/libegl-dev_1.3.2-1_arm64.deb
+    sha256: e2ad8f861b423620dd202ee6dbd1f79ff09e427656d84b395cb19ff43cc77f2d
+  - name: http://deb.debian.org/debian/pool/main/libg/libglvnd/libegl1_1.3.2-1_arm64.deb
+    sha256: 4b531a79399010d3377ce9b6094c8f5f3508bd18ea5b32008a6a1ec16e019a81
+  - name: http://deb.debian.org/debian/pool/main/libg/libglvnd/libgl-dev_1.3.2-1_arm64.deb
+    sha256: cb40f975a9bf6916bb435378a1bdab4f2aec93ef4df91c7f2708900c84211e7d
+  - name: http://deb.debian.org/debian/pool/main/libg/libglvnd/libgl1_1.3.2-1_arm64.deb
+    sha256: 18075b79c22b06bb25b9b4f3fa44a42127c40e573b34703af3f4c0b780cae29a
+  - name: http://deb.debian.org/debian/pool/main/libg/libglvnd/libgles-dev_1.3.2-1_arm64.deb
+    sha256: 8fd9943bd37d02e0ef9e8983d880fe71aa171f2973c2c19d9fc5d9492bc13fe8
+  - name: http://deb.debian.org/debian/pool/main/libg/libglvnd/libgles1_1.3.2-1_arm64.deb
+    sha256: a607c89ff8d61145f215b4be95814aef7accbfc0bac8c2a840ee9f0aca530068
+  - name: http://deb.debian.org/debian/pool/main/libg/libglvnd/libgles2_1.3.2-1_arm64.deb
+    sha256: ae3fda1556b677519ff13d43295d7df678d3a9c39a21042e87d9255de1bc78b6
+  - name: http://deb.debian.org/debian/pool/main/libg/libglvnd/libglvnd0_1.3.2-1_arm64.deb
+    sha256: 5d7a05a966d1df43ca440245dfc7e18a51fc974f665441fc87180a605a0481d9
+  - name: http://deb.debian.org/debian/pool/main/libg/libglvnd/libglx-dev_1.3.2-1_arm64.deb
+    sha256: 0a69e1f459f8bc3e190162e78f8f6aa749dfcc0ad6c77f7ec27c9b55aef8e75c
+  - name: http://deb.debian.org/debian/pool/main/libg/libglvnd/libglx0_1.3.2-1_arm64.deb
+    sha256: a53aec87ff8d3ae181c320c01bc190f752a276d5e5ca87e624f9058a4b520bf2
+  - name: http://deb.debian.org/debian/pool/main/libg/libgpg-error/libgpg-error0_1.38-2_arm64.deb
+    sha256: d1116f4281d6db35279799a21051e0d0e2600d110d7ee2b95b3cca6bec28067c
+  - name: http://deb.debian.org/debian/pool/main/libg/libgudev/gir1.2-gudev-1.0_234-1_arm64.deb
+    sha256: 0b150144ae6bff0fcaadc8aa47232809db948aef2faacbdaaf49217cc31e9a89
+  - name: http://deb.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-0_234-1_arm64.deb
+    sha256: 8e0e8990893f9355d7f725e608e948cc9369c850caf163a28f118c0262b63586
+  - name: http://deb.debian.org/debian/pool/main/libg/libgudev/libgudev-1.0-dev_234-1_arm64.deb
+    sha256: 1d93b9914f0d14822d3a84ba648ecbdd6dcc421e26091a1737c6a62a18bd628c
+  - name: http://deb.debian.org/debian/pool/main/libi/libinput/libinput-bin_1.16.4-3_arm64.deb
+    sha256: f32690f09bf54faa7596537ee156832ab6d47ce59664e0efefb72cb3371df301
+  - name: http://deb.debian.org/debian/pool/main/libi/libinput/libinput-dev_1.16.4-3_arm64.deb
+    sha256: 389f844aff3a789c5697757b231bc317f08d0da9953d30d0920fef6cf611d77a
+  - name: http://deb.debian.org/debian/pool/main/libi/libinput/libinput10_1.16.4-3_arm64.deb
+    sha256: 6c7105bcef7a870b18d1be588790938985b0f0ca9c6d42608f5f5238893da259
+  - name: http://deb.debian.org/debian/pool/main/libm/libmd/libmd0_1.0.3-3_arm64.deb
+    sha256: 3c490cdcce9d25e702e6587b6166cd8e7303fce8343642d9d5d99695282a9e5c
+  - name: http://deb.debian.org/debian/pool/main/libn/libnsl/libnsl-dev_1.3.0-2_arm64.deb
+    sha256: baf8a2ef1e9faec26dd84e62d0e8b653f54d2211a7a89c1b67965aee8a3da790
+  - name: http://deb.debian.org/debian/pool/main/libn/libnsl/libnsl2_1.3.0-2_arm64.deb
+    sha256: 8f9ba58b219779b43c4ccc78c79b0a23f721fc96323c202abb31e02f942104b3
+  - name: http://deb.debian.org/debian/pool/main/libp/libpthread-stubs/libpthread-stubs0-dev_0.4-1_arm64.deb
+    sha256: acd58ed5d26d3f4d4b0856ebec6bc43f9c4357601a532eee0d2de839a8b8952e
+  - name: http://deb.debian.org/debian/pool/main/libs/libsecret/gir1.2-secret-1_0.20.4-2_arm64.deb
+    sha256: bc7f93cac053d8e9575647cc91335fa234329b03218da4b8ff4ff8d99cef32a6
+  - name: http://deb.debian.org/debian/pool/main/libs/libsecret/libsecret-1-0_0.20.4-2_arm64.deb
+    sha256: ba53dfdf0d149d03b06ee54388259a074218e8061aa51e80cbe9f5a21e224a84
+  - name: http://deb.debian.org/debian/pool/main/libs/libsecret/libsecret-1-dev_0.20.4-2_arm64.deb
+    sha256: 4b0b3bfa2628eb2ecef14b55becb58ce24d6667dfb4d60715c38cd10f5e6bc48
+  - name: http://deb.debian.org/debian/pool/main/libs/libsecret/libsecret-common_0.20.4-2_all.deb
+    sha256: 2e4b281c2c38e5be1c253955c13e4366ae64c449358aa0bc00a46bfb846bf30f
+  - name: http://deb.debian.org/debian/pool/main/libs/libselinux/libselinux1_3.1-3_arm64.deb
+    sha256: da98279a47dabaa46a83514142f5c691c6a71fa7e582661a3a3db6887ad3e9d1
+  - name: http://deb.debian.org/debian/pool/main/libs/libselinux/libselinux1-dev_3.1-3_arm64.deb
+    sha256: 91e9c58f4a33e44ea0543d2e2d9e259d6833fbfa13704bcff685ed6a3d7c8eec
+  - name: http://deb.debian.org/debian/pool/main/libs/libsepol/libsepol1_3.1-1_arm64.deb
+    sha256: 354d36c3084c14f242baba3a06372a3c034cec7a0cb38e626fc03cc4751b2cd3
+  - name: http://deb.debian.org/debian/pool/main/libs/libsepol/libsepol1-dev_3.1-1_arm64.deb
+    sha256: 2b01df0d3a8b1d94a9a4cb925219d7b156ae9e089c2dc07791af6170c7bd44cf
+  - name: http://deb.debian.org/debian/pool/main/libt/libtextwrap/libtextwrap1_0.1-14.2_arm64.deb
+    sha256: 5772bce3c7c39dc4c4b3cfb86859f5f5f8652d3a37061edb7d7e50f37130f740
+  - name: http://deb.debian.org/debian/pool/main/libt/libtirpc/libtirpc-common_1.3.1-1%2bdeb11u1_all.deb
+    sha256: b2f10cb79e7d7a2f9b30bcdf036127df55cd4a34688547bc2886fa38f4969f77
+  - name: http://deb.debian.org/debian/pool/main/libt/libtirpc/libtirpc-dev_1.3.1-1%2bdeb11u1_arm64.deb
+    sha256: 8b30e69481d15fc1a311db8fc2a32413466d64451ec1317f4753eb70f7cc15d6
+  - name: http://deb.debian.org/debian/pool/main/libt/libtirpc/libtirpc3_1.3.1-1%2bdeb11u1_arm64.deb
+    sha256: ccff0927f55b97fe9ea13057fab8bff9920bf4628eb2d5d48b9656f2fb74d2e1
+  - name: http://deb.debian.org/debian/pool/main/libt/libtool/libltdl7_2.4.6-15_arm64.deb
+    sha256: e13bc091b1493c3bbb0e6554e73bd4d913358fdcd267152d1dcb32a5a3b94e27
+  - name: http://deb.debian.org/debian/pool/main/libu/libunistring/libunistring2_0.9.10-4_arm64.deb
+    sha256: 53ff395ea4d8cf17c52155a452a0dc15af0ee2fa5cb3b0085b9c7335de8d5f7f
+  - name: http://deb.debian.org/debian/pool/main/libw/libwacom/libwacom-common_1.8-2_all.deb
+    sha256: f7317cf0f66aaa836606f04468ab3196849f3fc9cab48a8417688ffca4c63fc0
+  - name: http://deb.debian.org/debian/pool/main/libw/libwacom/libwacom-dev_1.8-2_arm64.deb
+    sha256: 1fe8b3dba75afdc400a15d6030a9e4421d1ca65e4c2c97940fd1a44daf17d862
+  - name: http://deb.debian.org/debian/pool/main/libw/libwacom/libwacom2_1.8-2_arm64.deb
+    sha256: fa9fc4f12d363e14d5ec8d6890cd98cb781dbd9cfc5a2c0379f2bb18409d2a20
+  - name: http://deb.debian.org/debian/pool/main/libx/libx11/libx11-6_1.7.2-1%2bdeb11u2_arm64.deb
+    sha256: 1ddb1a4d3dbdaeac8fd8d0009a27e6453b15d97362fdd1d3efb1d5f577364f30
+  - name: http://deb.debian.org/debian/pool/main/libx/libx11/libx11-data_1.7.2-1%2bdeb11u2_all.deb
+    sha256: 9db24e1e7ed3cd738b503e7df5c1b9b52b1eadcb55019cd63b1409e578565d29
+  - name: http://deb.debian.org/debian/pool/main/libx/libx11/libx11-dev_1.7.2-1%2bdeb11u2_arm64.deb
+    sha256: daab6b6a6de5aa8aea8ec61ac89a25b86812e20292aa891bb0d9481c5d3ae310
+  - name: http://deb.debian.org/debian/pool/main/libx/libx11/libx11-xcb1_1.7.2-1%2bdeb11u2_arm64.deb
+    sha256: b1ec49c5d32288c295ac1b4b1ad4a3ab711a2926303c709972daf4271492d092
+  - name: http://deb.debian.org/debian/pool/main/libx/libxau/libxau-dev_1.0.9-1_arm64.deb
+    sha256: 21db3761a8f388fc83707c00fac645d4332737a859dd727571e1e6ede003b048
+  - name: http://deb.debian.org/debian/pool/main/libx/libxau/libxau6_1.0.9-1_arm64.deb
+    sha256: 36c2bf400641a80521093771dc2562c903df4065f9eb03add50d90564337ea6c
+  - name: http://deb.debian.org/debian/pool/main/libx/libxcb/libxcb-dri2-0_1.14-3_arm64.deb
+    sha256: b99d1f4909d0a3fe85dfba6524fb0a8c4d08703366ed99f034417684e91ded5b
+  - name: http://deb.debian.org/debian/pool/main/libx/libxcb/libxcb-dri3-0_1.14-3_arm64.deb
+    sha256: 9a6dc75fd8e9fe720f62f99cfebef0cbe51cf2909aa5e777254cb6a3ddf47f6f
+  - name: http://deb.debian.org/debian/pool/main/libx/libxcb/libxcb-glx0_1.14-3_arm64.deb
+    sha256: 754902f3399fd5c9c851dbf150306f537acab7152b9f32206a7910b7c3f353e1
+  - name: http://deb.debian.org/debian/pool/main/libx/libxcb/libxcb-present0_1.14-3_arm64.deb
+    sha256: 9e84b49e46833fd3fb366b04d19c652a0e8d2ebe3d40f19f9b530763ba2f7b88
+  - name: http://deb.debian.org/debian/pool/main/libx/libxcb/libxcb-shm0_1.14-3_arm64.deb
+    sha256: e7f59fc41744fe6b8b9ba97b262a051621173689e2a3e5ebb26dc253c9bdc48b
+  - name: http://deb.debian.org/debian/pool/main/libx/libxcb/libxcb-sync1_1.14-3_arm64.deb
+    sha256: ba70a2194fa7875f1a3ef6fb31bdd4cca5ca970926e3201994a166c5026ce442
+  - name: http://deb.debian.org/debian/pool/main/libx/libxcb/libxcb-xfixes0_1.14-3_arm64.deb
+    sha256: 8185fca98fda89fc5a020b9a8cd92b093929830a29cf92e6a1eba04bd88bcf5f
+  - name: http://deb.debian.org/debian/pool/main/libx/libxcb/libxcb1_1.14-3_arm64.deb
+    sha256: 48f82b65c93adb7af7757961fdd2730928316459f008d767b7104a56bc20a8f1
+  - name: http://deb.debian.org/debian/pool/main/libx/libxcb/libxcb1-dev_1.14-3_arm64.deb
+    sha256: 43ebe78dd7f66933286fe68fd7ccc650ef14464d479fff13e635e95d1f742efa
+  - name: http://deb.debian.org/debian/pool/main/libx/libxcrypt/libcrypt-dev_4.4.18-4_arm64.deb
+    sha256: 5309fdf445acc72794b9d134e9625746ffad2b865c6432abcd08ef097587bde1
+  - name: http://deb.debian.org/debian/pool/main/libx/libxcrypt/libcrypt1_4.4.18-4_arm64.deb
+    sha256: 22b586b29e840dabebf0bf227d233376628b87954915d064bc142ae85d1b7979
+  - name: http://deb.debian.org/debian/pool/main/libx/libxdamage/libxdamage1_1.1.5-2_arm64.deb
+    sha256: 696cb56f414e7c0ea9a3bcbcb63b07f6ed8e980023c1b35006d5c1dc0d0213ed
+  - name: http://deb.debian.org/debian/pool/main/libx/libxdmcp/libxdmcp-dev_1.1.2-3_arm64.deb
+    sha256: 6fd0bc51f3a4e6b7f944f24f15524a4c4ba68a4b0aa136c18bdb96a2d36988f2
+  - name: http://deb.debian.org/debian/pool/main/libx/libxdmcp/libxdmcp6_1.1.2-3_arm64.deb
+    sha256: e92569ac33247261aa09adfadc34ced3994ac301cf8b58de415a2d5dbf15ccfc
+  - name: http://deb.debian.org/debian/pool/main/libx/libxext/libxext6_1.3.3-1.1_arm64.deb
+    sha256: 57237ecf54662372e206b154c0ab6096e05955e048552575b45d3ad14a6ff6e5
+  - name: http://deb.debian.org/debian/pool/main/libx/libxfixes/libxfixes3_5.0.3-2_arm64.deb
+    sha256: eb70f12af1d13e1632ee29ddf103617af00a078faf6c3a2531ab3d01b395606b
+  - name: http://deb.debian.org/debian/pool/main/libx/libxkbcommon/libxkbcommon-dev_1.0.3-2_arm64.deb
+    sha256: 704aa9acb1643344c7ecd237f6d93efd96d6067fa5e9ec41ca2aba4b88a92f06
+  - name: http://deb.debian.org/debian/pool/main/libx/libxkbcommon/libxkbcommon0_1.0.3-2_arm64.deb
+    sha256: 91c19f642af34ae8cb909d00d08bc83f0b4f8e87ddde6984bd8bff0f7bf83204
+  - name: http://deb.debian.org/debian/pool/main/libx/libxshmfence/libxshmfence1_1.3-1_arm64.deb
+    sha256: fa2edaae6902681ecd02534dcdf8389ac48714d3385d572cc17747160957acc8
+  - name: http://deb.debian.org/debian/pool/main/libx/libxxf86vm/libxxf86vm1_1.1.4-1%2bb2_arm64.deb
+    sha256: 8a4826772ac480804d6b8d776a4130d95260c036b9b218de4c8a0f07eb9c5bba
+  - name: http://deb.debian.org/debian/pool/main/libz/libzstd/libzstd1_1.4.8%2bdfsg-2.1_arm64.deb
+    sha256: dd01659c6c122f983a3369a04ede63539f666585d52a03f8aa2c27b307e547e0
+  - name: http://deb.debian.org/debian/pool/main/l/lm-sensors/libsensors-config_3.6.0-7_all.deb
+    sha256: 4265811140a591d27c99d026b63707d8235d98c73d7543c66ab9ec73c28523fc
+  - name: http://deb.debian.org/debian/pool/main/l/lm-sensors/libsensors5_3.6.0-7_arm64.deb
+    sha256: fd5533c6293d881d67e488ad0549c0b0351e1b770037a08018e5e88996cb95dc
+  - name: http://deb.debian.org/debian/pool/main/m/mailcap/mailcap_3.69_all.deb
+    sha256: 63fa5520f05d2aea5ca23eee95981a5e029608e1186ded4143470c8f84184158
+  - name: http://deb.debian.org/debian/pool/main/m/make-dfsg/make_4.3-4.1_arm64.deb
+    sha256: 7ef5f5c0e3f909c811f941598107119af0a0554641b5cc590f584cea6a55d204
+  - name: http://deb.debian.org/debian/pool/main/m/media-types/media-types_4.0.0_all.deb
+    sha256: f9835dcf3cdbaf163104d4e511c9c4e0f41a56822e147e57f28f749fcbf7d44c
+  - name: http://deb.debian.org/debian/pool/main/m/mesa/libegl-mesa0_20.3.5-1_arm64.deb
+    sha256: cf0ea87393d134d49145798357725a044c80ee2d48fc8920490e15282aa4dca5
+  - name: http://deb.debian.org/debian/pool/main/m/mesa/libgbm-dev_20.3.5-1_arm64.deb
+    sha256: 4ef3b10914072d465282bffaa10e310dcabc88fa8ab02c200771cbe1c37f527d
+  - name: http://deb.debian.org/debian/pool/main/m/mesa/libgbm1_20.3.5-1_arm64.deb
+    sha256: 991e5db7978e44ef745a1f7f18100927d304ddf1eaaab840167b5f07e3bdc7e8
+  - name: http://deb.debian.org/debian/pool/main/m/mesa/libgl1-mesa-dri_20.3.5-1_arm64.deb
+    sha256: 13bc343bc0bb7ec8bf52ecceb2c41ac8b70bc80d4d76784252caceadf0c83b73
+  - name: http://deb.debian.org/debian/pool/main/m/mesa/libglapi-mesa_20.3.5-1_arm64.deb
+    sha256: 2678cf4bcfe4dfeba85deabaf869cb78a2f3263388baaff53e826f52cf17088b
+  - name: http://deb.debian.org/debian/pool/main/m/mesa/libglx-mesa0_20.3.5-1_arm64.deb
+    sha256: b1f653df820ecda31ed3d6a39429befbced67093dc9b964cbfa5f7991a23eda8
+  - name: http://deb.debian.org/debian/pool/main/m/mime-support/mime-support_3.66_all.deb
+    sha256: b964e671e6c47674879a3e54130b6737e8760fbd3da6afcc015faa174af98ba0
+  - name: http://deb.debian.org/debian/pool/main/m/mpdecimal/libmpdec3_2.5.1-1_arm64.deb
+    sha256: 171e2581970f36a39f65d1ca3c761e76b103844daae7903fcc07f7c3822a05bb
+  - name: http://deb.debian.org/debian/pool/main/m/mtdev/libmtdev-dev_1.1.6-1_arm64.deb
+    sha256: 6fa0f144432ad968a7dba179ba5d7ad8ab2973bf0388cb7292d2412da8ff2099
+  - name: http://deb.debian.org/debian/pool/main/m/mtdev/libmtdev1_1.1.6-1_arm64.deb
+    sha256: 63e20c50fb719c41e7d456032bb9ff7130234a7f2c5769e3e364e2295dae5462
+  - name: http://deb.debian.org/debian/pool/main/n/ncurses/libncursesw6_6.2%2b20201114-2%2bdeb11u2_arm64.deb
+    sha256: 26bd6f488b885d02dfe933038d1e15414f5fe98704b3f49d2cecf665ebcb0f5b
+  - name: http://deb.debian.org/debian/pool/main/n/ncurses/libtinfo6_6.2%2b20201114-2%2bdeb11u2_arm64.deb
+    sha256: 58027c991756930a2abb2f87a829393d3fdbfb76f4eca9795ef38ea2b0510e27
+  - name: http://deb.debian.org/debian/pool/main/n/newt/libnewt0.52_0.52.21-4%2bb3_arm64.deb
+    sha256: c3287b4f5865bd869afc75e875d40ff6de2f1fcc99fa52d8563aa74343edda5d
+  - name: http://deb.debian.org/debian/pool/main/o/openssl/libssl1.1_1.1.1w-0%2bdeb11u1_arm64.deb
+    sha256: fe7a7d313c87e46e62e614a07137e4a476a79fc9e5aab7b23e8235211280fee3
+  - name: http://deb.debian.org/debian/pool/main/p/patch/patch_2.7.6-7_arm64.deb
+    sha256: 11e5e56f3cb4b306c9589bb37f9c701bf23bb37c410bac12e6a50d6461e71bd6
+  - name: http://deb.debian.org/debian/pool/main/p/pcre2/libpcre2-16-0_10.36-2%2bdeb11u1_arm64.deb
+    sha256: 3c3b23bf94361e57c3d9b0e95255094c43ab1fe3be72e7e3c5b906c4abc3fcd3
+  - name: http://deb.debian.org/debian/pool/main/p/pcre2/libpcre2-32-0_10.36-2%2bdeb11u1_arm64.deb
+    sha256: cd7264be0439b88aa54aa901458a0f26a293196d22703e4576526b4f3c639f2e
+  - name: http://deb.debian.org/debian/pool/main/p/pcre2/libpcre2-8-0_10.36-2%2bdeb11u1_arm64.deb
+    sha256: 27a4362a4793cb67a8ae571bd8c3f7e8654dc2e56d99088391b87af1793cca9c
+  - name: http://deb.debian.org/debian/pool/main/p/pcre2/libpcre2-dev_10.36-2%2bdeb11u1_arm64.deb
+    sha256: 6f3502a192a5574614dc661c1be1f971d6b95499ca18217fb8cdc0b4edf7fa3b
+  - name: http://deb.debian.org/debian/pool/main/p/pcre2/libpcre2-posix2_10.36-2%2bdeb11u1_arm64.deb
+    sha256: 4a056e05a9dbffd9d871d832efee9e2de2aa159044ae63949a6a3a4143740828
+  - name: http://deb.debian.org/debian/pool/main/p/pcre3/libpcre16-3_8.39-13_arm64.deb
+    sha256: 8c254c9f1962db4e8c38b077fce549e00f9201c25936f1b9c9ca36d6aa82e2f3
+  - name: http://deb.debian.org/debian/pool/main/p/pcre3/libpcre3_8.39-13_arm64.deb
+    sha256: 21cac4064a41dbc354295c437f37bf623f9004513a97a6fa030248566aa986e9
+  - name: http://deb.debian.org/debian/pool/main/p/pcre3/libpcre3-dev_8.39-13_arm64.deb
+    sha256: fc10133538dd98895d466b2f273e5373e5e44cac832ed588c517cf3a795c5724
+  - name: http://deb.debian.org/debian/pool/main/p/pcre3/libpcre32-3_8.39-13_arm64.deb
+    sha256: a5eeebe0a2d4106558c6c626b4297055a38bd67059b9a0afcf04c40602e4a6ab
+  - name: http://deb.debian.org/debian/pool/main/p/pcre3/libpcrecpp0v5_8.39-13_arm64.deb
+    sha256: 266be5873eda3f30867f26028636d11d6cf25e0147467bdcac2c65e4a90c4ffd
+  - name: http://deb.debian.org/debian/pool/main/p/perl/libperl5.32_5.32.1-4%2bdeb11u3_arm64.deb
+    sha256: 9a5524101015f14773246336cb615c0e58fff2e7420a79f511262df9a7ff1c91
+  - name: http://deb.debian.org/debian/pool/main/r/readline/libreadline8_8.1-1_arm64.deb
+    sha256: 500c3cdc00dcaea2c4ed736e00bfcb6cb43c3415e808566c5dfa266dbfc0c5e5
+  - name: http://deb.debian.org/debian/pool/main/r/readline/readline-common_8.1-1_all.deb
+    sha256: 3f947176ef949f93e4ad5d76c067d33fa97cf90b62ee0748acb4f5f64790edc8
+  - name: http://deb.debian.org/debian/pool/main/s/slang2/libslang2_2.3.2-5_arm64.deb
+    sha256: 61c51c2ff17b38a0791193460df9a09a5f5a90ece01483202d0667059814503f
+  - name: http://deb.debian.org/debian/pool/main/s/sqlite3/libsqlite3-0_3.34.1-3_arm64.deb
+    sha256: 1e33cd39dc4fff2a7edd7bb7e90a71e20fb528f6a581fe0287652e4dae77e0d0
+  - name: http://deb.debian.org/debian/pool/main/s/systemd/libudev-dev_247.3-7%2bdeb11u5_arm64.deb
+    sha256: 608eecca1c50230a5488ce436e30926f3b93c57ed018fd7318f1fd278070bdef
+  - name: http://deb.debian.org/debian/pool/main/s/systemd/libudev1_247.3-7%2bdeb11u5_arm64.deb
+    sha256: df88275dafcc3b0759ef03d5027fa1f90f48bf7aeec461887798bd18298fe799
+  - name: http://deb.debian.org/debian/pool/main/t/tar/tar_1.34%2bdfsg-1%2bdeb11u1_arm64.deb
+    sha256: 0f94aac4e6d25e07ed23b7fc3ed06e69074c95276d82caae7fc7b207fd714e39
+  - name: http://deb.debian.org/debian/pool/main/t/texinfo/install-info_6.7.0.dfsg.2-6_arm64.deb
+    sha256: f12d0f3d104419e4796d44f720a77d6e4b522d2ae800a24a784e5485a7fcc5c5
+  - name: http://deb.debian.org/debian/pool/main/t/tzdata/tzdata_2024a-0%2bdeb11u1_all.deb
+    sha256: 13befffb7ee127f569af92d736e30c86c199bbd58f9c3cca0d071ed63e04d003
+  - name: http://deb.debian.org/debian/pool/main/u/util-linux/libblkid-dev_2.36.1-8%2bdeb11u2_arm64.deb
+    sha256: c63c2224a5184a62724f2f6ac0ede448e69d454972f80293bbb6f0c1943400be
+  - name: http://deb.debian.org/debian/pool/main/u/util-linux/libblkid1_2.36.1-8%2bdeb11u2_arm64.deb
+    sha256: 3fbb4e3ffd78dcc7e181d424beb934233d5717a15998ad2e18d241b14ddf2e10
+  - name: http://deb.debian.org/debian/pool/main/u/util-linux/libmount-dev_2.36.1-8%2bdeb11u2_arm64.deb
+    sha256: 7e5d991d77a8b4bafb0cd81182d070db7b27eb736c1da4b29fde7bc59f2a0756
+  - name: http://deb.debian.org/debian/pool/main/u/util-linux/libmount1_2.36.1-8%2bdeb11u2_arm64.deb
+    sha256: 1ff25c96e811f2dd31c6217bfe646476b6290e4a7e575af03d3053b038dd8e66
+  - name: http://deb.debian.org/debian/pool/main/u/util-linux/libuuid1_2.36.1-8%2bdeb11u2_arm64.deb
+    sha256: 2b3df73a725c3fe4ec8565ec04124e556122370fc63fd7886f7dfa25092df0ba
+  - name: http://deb.debian.org/debian/pool/main/u/util-linux/uuid-dev_2.36.1-8%2bdeb11u2_arm64.deb
+    sha256: 7758ec4bd127dbf5ea07c9a6352f4b8be4bc56ac3441006ee5c8dbc78951a38e
+  - name: http://deb.debian.org/debian/pool/main/v/vulkan-loader/libvulkan1_1.2.162.0-1_arm64.deb
+    sha256: 303d48229ccab57342ad9cc36174429ee7b8b0cdb6e6e292b87ce3415fe5d65a
+  - name: http://deb.debian.org/debian/pool/main/w/wayland/libwayland-client0_1.18.0-2%7eexp1.1_arm64.deb
+    sha256: 7bde74828c3508b5b81400c4b9ef51d65b566d7645747b777ec171eb8ecfce47
+  - name: http://deb.debian.org/debian/pool/main/w/wayland/libwayland-server0_1.18.0-2%7eexp1.1_arm64.deb
+    sha256: 3bbcb9e41159b6268b40ce16b1512e5bcf38e63b8bcf2426eaa54b19c6988257
+  - name: http://deb.debian.org/debian/pool/main/x/xkeyboard-config/xkb-data_2.29-2_all.deb
+    sha256: 9122cccc67e6b3c3aef2fa9c50ef9d793a12f951c76698a02b1f4ceb9e3634e5
+  - name: http://deb.debian.org/debian/pool/main/x/xorg-sgml-doctools/xorg-sgml-doctools_1.11-1.1_all.deb
+    sha256: 168345058319094e475a87ace66f5fb6ae802109650ea8434d672117982b5d0a
+  - name: http://deb.debian.org/debian/pool/main/x/xorgproto/x11proto-core-dev_2020.1-1_all.deb
+    sha256: 92941b1b2a7889a67e952a9301339202b6b390b77af939a26ee15c94ef4fad7e
+  - name: http://deb.debian.org/debian/pool/main/x/xorgproto/x11proto-dev_2020.1-1_all.deb
+    sha256: d5568d587d9ad2664c34c14b0ac538ccb3c567e126ee5291085a8de704a565f5
+  - name: http://deb.debian.org/debian/pool/main/x/xtrans/xtrans-dev_1.4.0-1_all.deb
+    sha256: 9ce1af9464faee0c679348dd11cdf63934c12e734a64e0903692b0cb5af38e06
+  - name: http://deb.debian.org/debian/pool/main/x/xz-utils/liblzma5_5.2.5-2.1%7edeb11u1_arm64.deb
+    sha256: d865bba41952c707b3fa3ae8cab4d4bd337ee92991d2aead66c925bf7cc48846
+  - name: http://deb.debian.org/debian/pool/main/x/xz-utils/xz-utils_5.2.5-2.1%7edeb11u1_arm64.deb
+    sha256: 65458ab2602dc8644d412411545560e8d4dd456cd04d8653822002f637c87e8a
+packages-bullseye-armhf:
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/b/bzip2/bzip2_1.0.8-4_armhf.deb
     sha256: c093dff1893324cb31e8bbf1238f8ee1321947c3d4b612aa200a4972a676488b
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/gobject-introspection/gir1.2-glib-2.0_1.66.1-1%2bb1_armhf.deb
@@ -37,8 +370,8 @@ packages-bullseye:
     sha256: fee058e4b13d4594d9b8fee449c22b861f400aa266cf9b9bb4230223ef78092a
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libd/libdebian-installer/libdebian-installer4_0.121_armhf.deb
     sha256: 3dde37c127742793a0e708013f793db37d6107568dc7b90ab16b964ec242caac
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/d/dpkg/libdpkg-perl_1.20.12%2brpi1_all.deb
-    sha256: 69dc95879fa75f678d0a5a1e50b301e2881ce0c96ac1cf7985c5da84746ac7fa
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/d/dpkg/libdpkg-perl_1.20.13%2brpi1_all.deb
+    sha256: e5fedd25205ab591d0909e0e12100a3fc147c8bfd981c81e26a310df7f7d5733
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libd/libdrm/libdrm-amdgpu1_2.4.104-1%2brpi1_armhf.deb
     sha256: e890798cf8ea2a0eb289d7f0b4ef7118ac591f5aff07781d4e34a93cb0aede62
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libd/libdrm/libdrm-common_2.4.104-1%2brpi1_all.deb
@@ -109,16 +442,16 @@ packages-bullseye:
     sha256: d4567121e28685f84499f9fb97413f1ea7f5c77c1fdf535a3f14ed42a6ff5256
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libg/libglvnd/libgles2_1.3.2-1_armhf.deb
     sha256: 5ec0dcbee0714e2f74d1c7a5f05501161d8263061a446071122be2ffd0e6110d
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/glib2.0/libglib2.0-0_2.66.8-1%2bdeb11u6_armhf.deb
-    sha256: e06fab20dcb2a85deaea656df94e17c237ced5e124ed5d92d93c04399296cfca
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/glib2.0/libglib2.0-bin_2.66.8-1%2bdeb11u6_armhf.deb
-    sha256: 65c437658de10ec13aceb3e82c85cde99e27f85d5750e954fffa56ee3994bdbc
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/glib2.0/libglib2.0-data_2.66.8-1%2bdeb11u6_all.deb
-    sha256: 6fe97d9562d56cbf2f1cfca210ea319d3099feb6b2e981958f7c8c4b0947ff1b
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/glib2.0/libglib2.0-dev_2.66.8-1%2bdeb11u6_armhf.deb
-    sha256: 7bd78874af92b0796e7489e8e38b5bc43a3e07e73d26cdb34f3b4d4a87944739
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/glib2.0/libglib2.0-dev-bin_2.66.8-1%2bdeb11u6_armhf.deb
-    sha256: 1173cb1960e43ff2ce62c5f9c5fc8d0503ac7c19453d3bdf8c7223ebe6cd64ac
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/glib2.0/libglib2.0-0_2.66.8-1%2bdeb11u8_armhf.deb
+    sha256: 79ed9e5707ac1b6ac3b7f93cb2fd4e71d9402be59c7bfa046487389f30f9f99e
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/glib2.0/libglib2.0-bin_2.66.8-1%2bdeb11u8_armhf.deb
+    sha256: 424fdc1adebcbc5dc423241d5367788b807c55afb7cb18f48c6fc2da6fcb48f3
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/glib2.0/libglib2.0-data_2.66.8-1%2bdeb11u8_all.deb
+    sha256: 57d65495f7003364ac02a6e12d54b4561bf1d7e861132a83043aceb4854c6f05
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/glib2.0/libglib2.0-dev_2.66.8-1%2bdeb11u8_armhf.deb
+    sha256: f897fc1e587826b75a04e36bcf3108cef41a1c9c11c153d9572f3068c6d81dee
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/g/glib2.0/libglib2.0-dev-bin_2.66.8-1%2bdeb11u8_armhf.deb
+    sha256: f44fa338316f0130344aa64616256f97911588fb1a21ba840c448cc54f01398f
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libg/libglvnd/libglvnd0_1.3.2-1_armhf.deb
     sha256: 24ddd7a5a5dd8bcd7669efbea3e285eb0c2ffd8f633c38fa820a14fb4f0d2745
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libg/libglvnd/libglx-dev_1.3.2-1_armhf.deb
@@ -131,30 +464,30 @@ packages-bullseye:
     sha256: 087e6cc07aace563a5894beae84e76a4acef0f96f7ae6238f75f629f46e7a45b
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libg/libgpg-error/libgpg-error0_1.38-2_armhf.deb
     sha256: 44e1c8534c1ae58340194a926dd16c32d973aee38ebd8f19d673ce01595b9611
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/k/krb5/libgssapi-krb5-2_1.18.3-6%2bdeb11u7_armhf.deb
-    sha256: 41a3543f18bb1c016a04dddcdd2cde5f2335d74d638508654ebf5f1c6e0edac4
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/k/krb5/libgssapi-krb5-2_1.18.3-6%2bdeb11u8_armhf.deb
+    sha256: f0108d034e612ee05f3749622530be43e07211509e89572039b14a98ad63feb5
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libg/libgudev/libgudev-1.0-0_234-1_armhf.deb
     sha256: dbddca464327e4842ca6d2c7699ae524b068ab0892554281f422348f3c4aa76a
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libg/libgudev/libgudev-1.0-dev_234-1_armhf.deb
     sha256: 3aef1ac5c6638f245bad4a5095327016851aca75cff013138365bd45d94d0a13
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libi/libinput/libinput-bin_1.16.4-3_armhf.deb
-    sha256: dad06afb55a15e14cb340be4c8fb3ba93461e8758a1c4fa1e474c03c0bd6d7b8
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libi/libinput/libinput-dev_1.16.4-3_armhf.deb
-    sha256: 4f7ffe9eed685c691cc8b2f6b3f2e0bdf49c6d2fb9f58188e6be88d3d5f2017b
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libi/libinput/libinput10_1.16.4-3_armhf.deb
-    sha256: 38e04cb0d5aeee26fa020af275cb5df7c83b0c53ce9dc95bcd5dbc0e0e2fe9ef
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/k/krb5/libk5crypto3_1.18.3-6%2bdeb11u7_armhf.deb
-    sha256: 592c4b9d5555881e25bfe23f36fd82d321ffc1737423fac720b75acea981b1ed
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libi/libinput/libinput-bin_1.16.4-3%2bdeb11u1_armhf.deb
+    sha256: bc078fac0e53277f9f9afe9beb37e329059e463ce6192893a26e857916d89e05
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libi/libinput/libinput-dev_1.16.4-3%2bdeb11u1_armhf.deb
+    sha256: 3747e449db45a2088b5aa95f73f6eaf68d540cb4907e8068a5ba5084538cea24
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libi/libinput/libinput10_1.16.4-3%2bdeb11u1_armhf.deb
+    sha256: b1cab6be4297302a15ba1ffc6dfd05db523c446ab3fab9a14b546a1f26c8d9d0
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/k/krb5/libk5crypto3_1.18.3-6%2bdeb11u8_armhf.deb
+    sha256: f464c6f0480ec8fd8b7ab46a00017e72e891a422ae47dec061cff97caf455b80
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/k/keyutils/libkeyutils1_1.6.1-2_armhf.deb
     sha256: 1d8fd366f12ded89ef7dd5a4a5dff9f5cd9916985f9afe91e3c67c78a9201543
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/k/krb5/libkrb5-3_1.18.3-6%2bdeb11u7_armhf.deb
-    sha256: 2ca6ebec490103639f30f9e914fa938d6538257daf7d510bd9b95492d24d3b19
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/k/krb5/libkrb5support0_1.18.3-6%2bdeb11u7_armhf.deb
-    sha256: 74125a1a1ecfc229695dc1fd430c57f5e986812356a4b489c0b56e09371c0963
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/k/krb5/libkrb5-3_1.18.3-6%2bdeb11u8_armhf.deb
+    sha256: ebf316e43ce0bf5df16b8a8338e53fa695740d4a34b01e20d9fc52b5150f4b1d
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/k/krb5/libkrb5support0_1.18.3-6%2bdeb11u8_armhf.deb
+    sha256: 6fa0842b6135f16d89378bbae26a3ee95bee4223e85a5d552ec3c3b8dcad243f
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libt/libtool/libltdl7_2.4.6-15_armhf.deb
     sha256: ecdf2b19511620f9eea88b2ac4ac401eb4cca4bcef6a5fda6c8caa1e118e50e7
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/x/xz-utils/liblzma5_5.2.5-2.1%7edeb11u1_armhf.deb
-    sha256: 212705c951022899e4a6b90e7c37da8c36955a27a17354276db2ec6fa47922c3
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/x/xz-utils/liblzma5_5.2.5-2.1%7edeb11u2_armhf.deb
+    sha256: 852ef2e5361aefafea3a995b401eedbe9dba6101d1bb1ec020868a9d3c987bd6
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libm/libmd/libmd0_1.0.3-3_armhf.deb
     sha256: de1a801d6173dd2604209557a27a1fe81334033e9e51d0a93a0173fc8b4cea6c
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/u/util-linux/libmount-dev_2.36.1-8%2bdeb11u2_armhf.deb
@@ -195,8 +528,8 @@ packages-bullseye:
     sha256: dd94573ebba8f5d469cfe7372d43c4648f264200826b656866e8d7dd2d713800
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/p/pcre3/libpcrecpp0v5_8.39-13_armhf.deb
     sha256: 8086dad9e0984b555413822814037e4b47eed61b1137f97c8802b4e228847430
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/p/perl/libperl5.32_5.32.1-4%2bdeb11u4_armhf.deb
-    sha256: 39ee3d6871dd8b7de3b49c6b0480b9e86a8210b8a158b0cb524ad4a4cc4856fb
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/p/perl/libperl5.32_5.32.1-4%2bdeb11u5_armhf.deb
+    sha256: cff717d954d22ceca800db433265c8cdd178fe093a51a8972d4f01ceee4be6c7
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libp/libpthread-stubs/libpthread-stubs0-dev_0.4-1_armhf.deb
     sha256: 296cbc4e83aa79186551dcd8dabafed34fc92eb376b425b93fc01b3aa02b9791
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/r/readline/libreadline8_8.1-1_armhf.deb
@@ -223,8 +556,8 @@ packages-bullseye:
     sha256: 7d9ede0d3252f27efcd4d7047923c1279523d1735bab6b06e52a4ad37ef445a7
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/s/sqlite3/libsqlite3-0_3.34.1-3%2bdeb11u1_armhf.deb
     sha256: 3b29604813e1069a0d259ace85ec33f8e66ecc19804d333d50ecc4f57c62e382
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/o/openssl/libssl1.1_1.1.1w-0%2bdeb11u4_armhf.deb
-    sha256: e7f6b19dbbfdcc136e0d011bcd5e8946881df846a5eaa0bd283fcdb8ab15bcc2
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/o/openssl/libssl1.1_1.1.1w-0%2bdeb11u8_armhf.deb
+    sha256: 7c0fee812f057b7e9b72fed36031e909b284d3f5b4401f0201422a4932e0ff64
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libt/libtextwrap/libtextwrap1_0.1-14.2_armhf.deb
     sha256: 992ddc463cb39411c07091619d522ad21be21f27ee3dc45ee917d3f277db1e81
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/n/ncurses/libtinfo6_6.2%2b20201114-2%2bdeb11u2_armhf.deb
@@ -235,10 +568,10 @@ packages-bullseye:
     sha256: ae86567c8ebbacadc02ea66cf4838689b472628e8e3d3d14c14f9eb4a040859c
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libt/libtirpc/libtirpc3_1.3.1-1%2bdeb11u1_armhf.deb
     sha256: d086cf3702373cebcd9c34a80691c2ceef842943b57bb80c9c05fde17d29f043
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/s/systemd/libudev-dev_247.3-7%2brpi1%2bdeb11u7_armhf.deb
-    sha256: 74bfd707b51d276398bdecf7b1f0b53019f335d3a8762f58eb1d63a17f2713ba
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/s/systemd/libudev1_247.3-7%2brpi1%2bdeb11u7_armhf.deb
-    sha256: 1711b1f603ee5acb4a131d09733cd60e836d4f65b326b6b0c19975c901447b05
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/s/systemd/libudev-dev_247.3-7%2brpi1%2bdeb11u8_armhf.deb
+    sha256: 7d2c2db0db0364721666d790628d8834ca861af805e0496aaa67f7ab06279c90
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/s/systemd/libudev1_247.3-7%2brpi1%2bdeb11u8_armhf.deb
+    sha256: 3dcd0c95fcc83098cd5735bb579b6b3c260303051c3b81ca18a189176d3e9f1a
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/libu/libunistring/libunistring2_0.9.10-4_armhf.deb
     sha256: 6454a16826f87031b3ee542d58ff4f7c83f0d2b4ce98729f7731f8627c0f1222
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/u/util-linux/libuuid1_2.36.1-8%2bdeb11u2_armhf.deb
@@ -319,8 +652,8 @@ packages-bullseye:
     sha256: 3f947176ef949f93e4ad5d76c067d33fa97cf90b62ee0748acb4f5f64790edc8
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/t/tar/tar_1.34%2bdfsg-1%2bdeb11u1_armhf.deb
     sha256: abf3fbb8b108c000f32d71ad750ea66d7ed90e3bfaf3b1b245759f2dcf4561ea
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/t/tzdata/tzdata_2025b-0%2bdeb11u1_all.deb
-    sha256: f3877ef307efa105e457e37c1afdf32bf0564bd9516d7c7c8dc8b3b109aa1331
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/t/tzdata/tzdata_2026b-0%2bdeb11u1_all.deb
+    sha256: 62324a5a05904bd46a2f54da5d12f9f1610fab517871c47ab135cd441e613016
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/u/util-linux/uuid-dev_2.36.1-8%2bdeb11u2_armhf.deb
     sha256: 72565766914ca815ab8dd8b16d6f9d4d0f972b0a40cf57df014949e4d0af5807
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/x/xorgproto/x11proto-core-dev_2020.1-1_all.deb
@@ -333,5 +666,5 @@ packages-bullseye:
     sha256: 168345058319094e475a87ace66f5fb6ae802109650ea8434d672117982b5d0a
   - name: http://raspbian.raspberrypi.org/raspbian/pool/main/x/xtrans/xtrans-dev_1.4.0-1_all.deb
     sha256: 9ce1af9464faee0c679348dd11cdf63934c12e734a64e0903692b0cb5af38e06
-  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/x/xz-utils/xz-utils_5.2.5-2.1%7edeb11u1_armhf.deb
-    sha256: 7d4cd390c48a06ec30ee0250b844960388d375522b0e93cd74e07ec95d934c10
+  - name: http://raspbian.raspberrypi.org/raspbian/pool/main/x/xz-utils/xz-utils_5.2.5-2.1%7edeb11u2_armhf.deb
+    sha256: 91fc78fc1aff838eb3c6b1cc63bfc4d5b23a03e3560e5d11a7ce1c89e051497e

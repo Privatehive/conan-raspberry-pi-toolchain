@@ -32,6 +32,9 @@ class RaspberryPiOsConan(ConanFile):
     exports_sources = ["Toolchain-rpi.cmake"]
     # ---Binary model---
     settings = "os"
+    # Target architecture of the Raspberry Pi. If not set, it is derived from the host profile arch when used as a tool_requires.
+    options = {"target_arch": [None, "armv6", "armv8"]}
+    default_options = {"target_arch": None}
     # ---Build---
     generators = []
     # ---Folders---
@@ -44,6 +47,12 @@ class RaspberryPiOsConan(ConanFile):
         self.run("rm pkg.deb", quiet=True)
         self.run("rm debian-binary", quiet=True)
 
+    def configure(self):
+        if not self.options.target_arch:
+            settings_target = getattr(self, "settings_target", None)
+            target_arch = settings_target.get_safe("arch") if settings_target else None
+            self.options.target_arch = "armv8" if target_arch == "armv8" else "armv6"
+
     def validate(self):
         if self.settings.os != "Linux":
             raise ConanInvalidConfiguration("Only Linux is supported")
@@ -52,22 +61,30 @@ class RaspberryPiOsConan(ConanFile):
         Apt(self).install(["binutils"])
         PacMan(self).install(["binutils"])
 
-    def source(self):
-        #get(self, "https://github.com/tttapa/docker-arm-cross-toolchain/releases/download/%s/x-tools-armv6-rpi-linux-gnueabihf.tar.xz" % self.version)
-        get(self, "https://conan.privatehive.de/artifactory/blob/x-tools/x-tools-armv6-rpi-linux-gnueabihf.tar.xz")
-        self.run("chmod -R +w " + os.path.join(self.source_folder, "x-tools"))
-        for val in self.conan_data["packages-" + self.version]:
+    def build(self):
+        # Not done in source(): the source folder is shared between all target_arch binaries
+        toolchain_sha256 = {
+            "armv6-rpi-linux-gnueabihf": "f7218cbd19192564fbfccacdaea5daa8ec6cd3b30951a4a8445a1df54ed14098",
+            "aarch64-rpi3-linux-gnu": "ee7f58281ee8d1c00d151502b948d631703107f2abf8a84509062f52904a5cbb",
+        }
+        get(self, "https://github.com/tttapa/docker-arm-cross-toolchain/releases/download/1.2.1/x-tools-%s-gcc13.tar.xz" % self.toolchainabi, sha256=toolchain_sha256[self.toolchainabi])
+        self.run("chmod -R +w " + os.path.join(self.build_folder, "x-tools"))
+        for val in self.conan_data["packages-%s-%s" % (self.version, self.debarch)]:
             self.install_deb_pkg(val["name"], val["sha256"])
 
     @property
     def toolchainabi(self):
-        return "armv6-rpi-linux-gnueabihf"
+        return "aarch64-rpi3-linux-gnu" if self.options.target_arch == "armv8" else "armv6-rpi-linux-gnueabihf"
+
+    @property
+    def debarch(self):
+        return "arm64" if self.options.target_arch == "armv8" else "armhf"
 
     def package(self):
         copy(self, pattern="Toolchain-rpi.cmake", src=self.source_folder, dst=self.package_folder)
-        copy(self, pattern="*", src=os.path.join(self.source_folder, "x-tools"), dst=os.path.join(self.package_folder, "x-tools"))
-        copy(self, pattern="*", src=os.path.join(self.source_folder, "sysroot", "lib"), dst=os.path.join(self.package_folder, "x-tools", self.toolchainabi, self.toolchainabi, "sysroot", "lib"))
-        copy(self, pattern="*", src=os.path.join(self.source_folder, "sysroot", "usr"), dst=os.path.join(self.package_folder, "x-tools", self.toolchainabi, self.toolchainabi, "sysroot", "usr"))
+        copy(self, pattern="*", src=os.path.join(self.build_folder, "x-tools"), dst=os.path.join(self.package_folder, "x-tools"))
+        copy(self, pattern="*", src=os.path.join(self.build_folder, "sysroot", "lib"), dst=os.path.join(self.package_folder, "x-tools", self.toolchainabi, self.toolchainabi, "sysroot", "lib"))
+        copy(self, pattern="*", src=os.path.join(self.build_folder, "sysroot", "usr"), dst=os.path.join(self.package_folder, "x-tools", self.toolchainabi, self.toolchainabi, "sysroot", "usr"))
 
     def define_tool_var(self, name, value, bin_folder):
         path = os.path.join(bin_folder, value)
